@@ -1,16 +1,63 @@
-# React + Vite
+# Job Portal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern job portal web application built using React.js, Tailwind CSS, and Firebase.
+It helps job seekers find relevant jobs and allows recruiters to post new job openings easily.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Job listing and real-time updates
+* Search and filter by skills, experience, and location
+* Post new jobs (for recruiters)
+* Responsive design for all devices
+* Built with clean and modern UI using Tailwind CSS
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Tailwind CSS
+* Firebase (Firestore Database)
+* Vite
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone this repository
+
+   ```bash
+   git clone https://github.com/Firdosh-ansari/Job-Portal-Website.git
+   ```
+2. Move into the project directory
+
+   ```bash
+   cd Job-Portal-Website
+   ```
+3. Install dependencies
+
+   ```bash
+   npm install
+   ```
+4. Start the development server
+
+   ```bash
+   npm run dev
+   ```
+
+Then open **[http://localhost:5173/](http://localhost:5173/)** in your browser.
+
+## Future Enhancements
+
+* Add user authentication (login/signup with Firebase Auth)
+* Create an admin dashboard for managing job posts
+* Add job application tracking system
+* Allow users to upload resumes and apply directly
+* Integrate email notifications for new job alerts
+
+## About the Project
+
+This project was created to practice React and Firebase integration.
+It can be further improved by adding more backend features using Java and MySQL for a full-stack implementation.
+
+## Author
+
+**Firdosh Ansari**
+Frontend Developer
+GitHub: [github.com/Firdosh-ansari](https://github.com/Firdosh-ansari)
